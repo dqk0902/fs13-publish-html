@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DQK Introduction</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <br />
+        <a href="#about-me"> About me </a>
+        <a href="#my-hobbies"> My hobbies </a>
+        <a href="#my-techs"> My techs </a>
+        <a href="#my-favourite-sports"> My favourite sport </a>
+        <a href="#contact"> Contact </a>
+      </nav>
+      <h1 id="header-title">Duong Quoc Khang</h1>
+      <div id="fish-picture">
+        <img
+          src="./pics/dqk.jpg"
+          alt="A picture of me from a cafe-restaurant"
+          loading="lazy"
+          width="300"
+          height="300"
+        />
+      </div>
+    </header>
+    <main>
+      <section id="about-me">
+        <article id="bio">
+          <h4>About me</h4>
+          <p>
+            I'm a student at Integrify! Currently I am second-years student in
+            Haaga-Helia UAS
+          </p>
+        </article>
+      </section>
+      <section id="my-hobbies">
+        <h4>My hobbies</h4>
+        <ul id="hobby-list">
+          <li>Football.</li>
+          <li>Music.</li>
+          <li>Coding.</li>
+        </ul>
+        <hr />
+      </section>
+      <section id="my-techs">
+        <h4>My skills</h4>
+        <ul id="tech-list">
+          <li>ReactJs</li>
+          <li>VueJs</li>
+          <li>Javascript</li>
+        </ul>
+        <hr />
+      </section>
+      <section id="my-favourite-sports">
+        <h4>My favourite sports</h4>
+        <ul id="sport-list">
+          <li>Footbal</li>
+          <li>Basketball</li>
+          <li>Boxing</li>
+        </ul>
+        <hr />
+      </section>
+      <section id="contact">
+        <h4>Contact</h4>
+        <form>
+          <fieldset>
+            <label for="message"
+              ><p>Send me a greeting!</p>
+              <input type="text" id="message" placeholder="Greeting..." />
+            </label>
+          </fieldset>
+          <fieldset>
+            <label for="dropdown"
+              ><p>Was this fun?</p>
+              <select id="dropdown">
+                <option>(select one)</option>
+                <option>Yes</option>
+                <option>No</option>
+              </select>
+            </label>
+          </fieldset>
+          <fieldset>
+            <label for="poem"
+              ><p>Write a poem</p>
+              <textarea id="poem" placeholder="Things happen.."></textarea>
+            </label>
+          </fieldset>
+          <fieldset>
+            <input id="submit" type="submit" value="Submit" />
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Made by DQK</p>
+    </footer>
+  </body>
+</html>
